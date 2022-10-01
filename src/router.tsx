@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-function Suspense({ component: Component }) {
+function Suspense({ component: Component }: any) {
   return (
     <React.Suspense fallback={<>...</>}>
       <Component />
